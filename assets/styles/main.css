@@ -14,3 +14,4 @@ body.dark-mode {
 .btn-subscribe:hover {
   opacity: 0.9;
 }
+.header {margin-bottom: 1 rem; }
