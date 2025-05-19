@@ -15,3 +15,17 @@ body.dark-mode {
   opacity: 0.9;
 }
 .header {margin-bottom: 1 rem; }
+
+/*New changes*/
+/* Footer base styles */
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 40px 20px;
+}
+
+.footer-widgets {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
