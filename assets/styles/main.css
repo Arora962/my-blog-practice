@@ -1,4 +1,10 @@
 
+/* Dark theme */
+body.dark-mode {
+  background: #121212;
+  color: #e0e0e0;
+}
+
 /* Subscribe button styles */
 .btn-subscribe {
   background: #007bff;
