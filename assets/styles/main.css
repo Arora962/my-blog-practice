@@ -4,3 +4,13 @@ body.dark-mode {
   background: #121212;
   color: #e0e0e0;
 }
+
+/* Subscribe button styles */
+.btn-subscribe {
+  background: #007bff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+.btn-subscribe:hover {
+  opacity: 0.9;
+}
