@@ -1,0 +1,20 @@
+{
+  "name": "my-blog-practice",
+  "version": "1.0.0",
+  "description": "This repository is for practicing the GitHub Flow.",
+  "homepage": "https://github.com/arora962/my-blog-practice#readme",
+  "bugs": {
+    "url": "https://github.com/arora962/my-blog-practice/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arora962/my-blog-practice.git"
+  },
+  "license": "ISC",
+  "author": "Kriti Arora",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
