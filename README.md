@@ -1,2 +1,5 @@
 # my-blog-practice
-This repository is for practicing the GitHub Flow.
+## Documentation
+
+See [Installation](https://github.com/<you>/my-blog-practice/wiki/Installation)
+
