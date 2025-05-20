@@ -1,0 +1,21 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up runtime
+        uses: actions/setup-python@v4   # or setup-node@v4 for npm
+        with:
+          python-version: "3.x"         # change to node-version: "16" if npm
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt   # or npm install
+      - name: Run tests
+        run: |
+          pytest                             # or npm test
