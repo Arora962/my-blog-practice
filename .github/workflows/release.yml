@@ -2,14 +2,18 @@ name: Auto-Tag Release
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main  
 
 jobs:
   tag:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
+
       - uses: Klemensas/action-autotag@stable
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          tag-pattern: 'v${{ steps.version.outputs.version }}'
+          tag_prefix: 'v'    
+          version_file: 'package.json'  
+          github_token: ${{ secrets.GITHUB_TOKEN }}  
